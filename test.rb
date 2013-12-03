@@ -6,6 +6,6 @@ end
 
 describe 'hello' do
   it 'outputs world' do
-    hello.should eq 'oh hai world'
+    hello.should eq 'hello world'
   end
 end
