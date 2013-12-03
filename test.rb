@@ -1,13 +1,11 @@
 require 'rspec'
 
 def hello
-  'world'
+  'hello world'
 end
-
-puts hello
 
 describe 'hello' do
   it 'outputs world' do
-    hello.should eq 'world'
+    hello.should eq 'hello world'
   end
 end
